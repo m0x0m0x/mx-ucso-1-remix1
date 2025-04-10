@@ -50,9 +50,9 @@ contract Inbox {
 
     // Funtion to execute some kind o math 
     function doMath(int a, int b) public pure {
-        a + b;
-        b - a;
-        b * a;
+        a + b; // from gast cost this will cost 3 
+        b - a; // from gast cost this will cost 3
+        b * a; // from gast cost this will cost 3
         a == 0;
     }
 

@@ -2,6 +2,10 @@
 
 > Wokz from remixpussys for ucso cursa suck and duck
 
+## Main Acc 
+
+[`Working Account`](https://sepolia.etherscan.io/address/0x6ac2fe84665850296377c57e742378456532da50)
+
 # Important links 
 
 Link | What 
