@@ -14,17 +14,19 @@ pragma solidity ^0.8.26;
 // ⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠄⠄⠄⠄⢹⣿⣿⣿⣿⣿⣿⣿⣿⠁⠄
 // ⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠄⠄⠄⠄⠄⠸⣿⣿⣿⣿⣿⡿⢟⣣⣀
 
+
+
 // Inbox Contract
 contract Inbox {
     
     // Set the varible of tyep string
     string public message;
 
-    function InboxFunc(string memory initialMessage) public {
+    function InboxFunc(string calldata initialMessage) public {
         message = initialMessage;
     }
 
-    function setMessage(string memory newMessage) public {
+    function setMessage(string calldata newMessage) public {
         message = newMessage;
     }
 
