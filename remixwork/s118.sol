@@ -39,14 +39,22 @@ contract Inbox {
         message = newMessage;
     }
 
-
     function getMessage() public view returns (string memory) {
         return message;
     }
-
 
     // Show booty message
      function showMessage() public pure returns (string memory) {
         return booty.showBootyMessage();
     }
+
+    // Funtion to execute some kind o math 
+    function doMath(int a, int b) public pure {
+        a + b;
+        b - a;
+        b * a;
+        a == 0;
+    }
+
+    
 }
