@@ -22,7 +22,14 @@ contract Inbox {
   
   
     // Set the varible of tyep string
-    string public message;
+    string public message; 
+    string public bootyMessage; // even though nothing set function is automatically made
+    string public pussyMessage; // even though nothing set function is automatically made
+
+    constructor() {
+    bootyMessage = "BootyLickers";
+    pussyMessage = "Pussy Smellers";
+    }
 
     function InboxFunc(string calldata initialMessage) public {
         message = initialMessage;
